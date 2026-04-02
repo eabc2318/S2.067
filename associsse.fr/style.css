@@ -18,7 +18,7 @@ body {
 
 .nav-btn {
     text-decoration: none;
-    color: #333;
+    color: #94783d;
     padding: 0.5rem 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -27,27 +27,18 @@ body {
 .nav-btn.active {
     background-color: #eee;
     font-weight: bold;
+    color: black;
 }
 
-#first{
-    height: 60vh; /* Ajustez la hauteur selon vos besoins */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('saucisse_landing.webp');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-}
+
 
 
 
 
 /* Section Héro avec image de fond */
 .hero {
-    height: 60vh; /* Ajustez la hauteur selon vos besoins */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('saucisse_landing.webp');
+    height: 60vh;
+
     background-size: cover;
     background-position: center;
     display: flex;
@@ -56,11 +47,17 @@ body {
     color: white;
     text-align: center;
     margin-top: 20px;
+    
 }
 
+#her1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/saucisse_landing.webp');
+    margin-top: 0px;
+}
 
-
-
+#her2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/boudin_noir_pommes_1950826795-1.webp');
+}
 
 
 .hero-content h1 {
@@ -68,32 +65,9 @@ body {
     margin-bottom: 1rem;
 }
 
-/* Section articles */
-.content-section {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-}
 
-.article-card {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
-    display: flex; /* Aligne image et texte côte à côte */
-    overflow: hidden; /* Pour les coins arrondis */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
 
-.article-img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-}
 
-.article-text {
-    padding: 1.5rem;
-}
 
 h1{
 	color :white;
