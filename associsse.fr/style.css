@@ -49,10 +49,6 @@ body {
 
 
 
-
-
-
-/* Section Héro avec image de fond */
 .hero {
     height: 60vh;
 
@@ -63,7 +59,9 @@ body {
     align-items: center;
     color: white;
     text-align: center;
-    margin-top: 20px;
+    margin: 0px;
+    padding: 0px;
+
     
 }
 
@@ -80,18 +78,31 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/knack.webp');
 }
 
+#her4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/chipopo.webp');
+    margin-bottom:5rem;
+}
+
 
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
 
-.title{
+.title h1{
     color: white;
     margin: 0px;
     padding: 0px;
     margin-left: 25px;
-    width: 40vh;
+    margin-top: 2rem;
+    font-size: 4rem; 
+    line-height: 1; 
+}
+
+.title h1:hover{
+    letter-spacing: 10px;
+    transition: 0.3s ease-in-out;
+    
 }
 
 
