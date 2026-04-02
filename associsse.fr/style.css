@@ -18,10 +18,20 @@ body {
 
 .nav-btn {
     text-decoration: none;
-    color: #94783d;
+    color: #ffffff;
     padding: 0.5rem 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: #000000;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+
+    transition: 0.3s ease-in-out;
 }
 
 .nav-btn.active {
@@ -29,6 +39,15 @@ body {
     font-weight: bold;
     color: black;
 }
+
+.nav-btn.active:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+
+    transition: 0.3s ease-in-out;
+}   
 
 
 
@@ -56,7 +75,11 @@ body {
 }
 
 #her2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/boudin_noir_pommes_1950826795-1.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/boudin_noir.webp');
+}
+
+#her3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/knack.webp');
 }
 
 
@@ -65,14 +88,12 @@ body {
     margin-bottom: 1rem;
 }
 
-
-
-
-
-h1{
-	color :white;
+.title{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 25px;
+    width: 40vh;
 }
 
-p{
-	color :white;
-}
+
