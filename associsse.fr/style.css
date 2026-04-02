@@ -1,0 +1,104 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-color: black;
+}
+
+/* Navbar */
+.navbar {
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.nav-btn.active {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+#first{
+    height: 60vh; /* Ajustez la hauteur selon vos besoins */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('saucisse_landing.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/* Section Héro avec image de fond */
+.hero {
+    height: 60vh; /* Ajustez la hauteur selon vos besoins */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('saucisse_landing.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Section articles */
+.content-section {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.article-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    display: flex; /* Aligne image et texte côte à côte */
+    overflow: hidden; /* Pour les coins arrondis */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.article-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-text {
+    padding: 1.5rem;
+}
+
+h1{
+	color :white;
+}
+
+p{
+	color :white;
+}
